@@ -1,2 +1,2 @@
 path for app source code:
-laliparth/SIH-Streamlit-App
+laliparth/SIH-Streamlit-App/streamlit_app.py
