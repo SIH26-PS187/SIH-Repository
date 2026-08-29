@@ -28,7 +28,7 @@ app.add_middleware(
 )
 
 # ── model ──────────────────────────────────────────────────────────────
-model = YOLO("yolo11n.pt")
+model = YOLO("yolo11s.pt")
 
 # ── shared state (updated by detection thread) ─────────────────────────
 state = {
