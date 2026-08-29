@@ -1,4 +1,7 @@
 streamlit
-authlib
+Authlib
 httpx
-
+opencv-python-headless
+pandas
+ultralytics
+easyocr
