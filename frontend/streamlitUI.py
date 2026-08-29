@@ -1,4 +1,3 @@
-from backend.detection import detect
 import streamlit as st
 
 ALLOWED_USERS = {
