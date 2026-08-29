@@ -4,3 +4,4 @@ __pycache__/
 *.pt
 backend/samplevideos/*.mp4
 .DS_Store
+frontend/.streamlit/
