@@ -1,4 +1,12 @@
 streamlit
 authlib
 httpx
-
+cv2
+time
+re
+os
+difflib
+pandas
+datetime
+ultralytics
+easyocr
