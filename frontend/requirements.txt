@@ -1,12 +1,7 @@
 streamlit
-authlib
+Authlib
 httpx
-cv2
-time
-re
-os
-difflib
+opencv-python-headless
 pandas
-datetime
 ultralytics
 easyocr
