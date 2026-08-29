@@ -1,10 +1,3 @@
-server.py — drop this into your backend/ folder alongside testpipeline.py
-Run: uvicorn server:app --host 0.0.0.0 --port 8000 --reload
-
-Requirements:
-    pip install fastapi uvicorn opencv-python ultralytics
-"""
-
 import asyncio
 import json
 import time
@@ -28,7 +21,7 @@ app.add_middleware(
 )
 
 # ── model ──────────────────────────────────────────────────────────────
-model = YOLO("yolo11n.pt")
+model = YOLO("yolo11s.pt")
 
 # ── shared state (updated by detection thread) ─────────────────────────
 state = {
