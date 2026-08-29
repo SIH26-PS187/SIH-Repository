@@ -2,3 +2,5 @@ ultralytics
 opencv-python
 streamlit
 shapely
+authlib
+httpx
