@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-from backen.detection import detect
-=======
+from backend.detection import detect
 import streamlit as st
 
 ALLOWED_USERS = {
@@ -39,4 +37,3 @@ st.write("We will add our app here...")
 
 if st.button("Logout"):
     st.logout()
->>>>>>> e16f7e18f3ac07aec64d03b42fba1d2068c1b3c3
