@@ -82,6 +82,9 @@ st.caption(
 
 st.success(f"Welcome, {st.user.name}!")
 
+if st.button("Logout"):
+    st.logout()
+
 st.divider()
 
 
@@ -1327,5 +1330,3 @@ else:
             "View the complete IBVAP architecture."
         )
 
-if st.button("Logout"):
-    st.logout()
