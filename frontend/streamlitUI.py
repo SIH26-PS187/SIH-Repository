@@ -39,6 +39,7 @@ import pandas as pd
 from datetime import datetime
 from ultralytics import YOLO
 import easyocr
+from pathlib import Path
 
 
 # ============================================================
@@ -56,10 +57,12 @@ st.set_page_config(
 # CONFIGURATION
 # ============================================================
 
-VIDEO_FOLDER = "demo_videos"
+BASE_DIR = Path(__file__).resolve().parent
 
-VEHICLE_MODEL = "yolo26n.pt"
-PLATE_MODEL = "models/plate_detector.pt"
+VIDEO_FOLDER = BASE_DIR / "demo_videos"
+
+VEHICLE_MODEL = BASE_DIR / "yolo26n.pt"
+PLATE_MODEL = BASE_DIR / "models" / "plate_detector.pt"
 
 VEHICLE_EVERY = 2
 PLATE_EVERY = 5
