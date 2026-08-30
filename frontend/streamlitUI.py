@@ -55,10 +55,10 @@ st.set_page_config(
 # CONFIGURATION
 # ============================================================
 
-VIDEO_FOLDER = "frontend/ demo_videos"
+VIDEO_FOLDER = "SIH-Repository/frontend/demo_videos"
 
-VEHICLE_MODEL = "frontend/ yolo26n.pt"
-PLATE_MODEL = "frontend/ models/ plate_detector.pt"
+VEHICLE_MODEL = "SIH-Repository/frontend/yolo26n.pt"
+PLATE_MODEL = "SIH-Repository/frontend/models/plate_detector.pt"
 
 VEHICLE_EVERY = 2
 PLATE_EVERY = 5
