@@ -54,7 +54,7 @@ st.set_page_config(
 # CONFIGURATION
 # ============================================================
 
-VIDEO_FOLDER = "/SIH-Repository/tree/main/frontend/demo_videos"
+VIDEO_FOLDER = "/SIH26-PS187/SIH-Repository/tree/main/frontend/demo_videos"
 
 VEHICLE_MODEL = "SIH-Repository/frontend/yolo26n.pt"
 PLATE_MODEL = "SIH-Repository/frontend/models/plate_detector.pt"
