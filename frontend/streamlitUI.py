@@ -1,4 +1,14 @@
 import streamlit as st
+import cv2
+import time
+import re
+import os
+from difflib import SequenceMatcher
+import pandas as pd
+from datetime import datetime
+from ultralytics import YOLO
+import easyocr
+from pathlib import Path
 
 ALLOWED_USERS = {
     "laliparth@gmail.com",
@@ -27,19 +37,6 @@ if st.user.email not in ALLOWED_USERS:
     st.button("Logout", on_click=st.logout)
     st.stop()
 
-
-
-import streamlit as st
-import cv2
-import time
-import re
-import os
-from difflib import SequenceMatcher
-import pandas as pd
-from datetime import datetime
-from ultralytics import YOLO
-import easyocr
-from pathlib import Path
 
 
 # ============================================================
