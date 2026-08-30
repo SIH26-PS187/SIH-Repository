@@ -1,4 +1,5 @@
 ultralytics-opencv-headless
+opencv-python-headless
 streamlit
 shapely
 Authlib
