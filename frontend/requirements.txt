@@ -1,7 +1,7 @@
 streamlit
 Authlib
 httpx
-opencv-python-headless
+opencv-python
 pandas
 ultralytics
 easyocr
