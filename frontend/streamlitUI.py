@@ -29,6 +29,7 @@ if st.user.email not in ALLOWED_USERS:
     
 
 
+import streamlit as st
 import cv2
 import time
 import re
