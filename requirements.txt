@@ -2,4 +2,7 @@ ultralytics
 opencv-python-headless
 streamlit
 shapely
-
+Authlib
+httpx
+pandas
+easyocr
