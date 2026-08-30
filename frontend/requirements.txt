@@ -1,6 +1,0 @@
-ultralytics-opencv-headless
-streamlit
-Authlib
-httpx
-pandas
-easyocr
