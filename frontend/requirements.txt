@@ -2,6 +2,5 @@ streamlit
 Authlib
 httpx
 ultralytics
-opencv
 pandas
 easyocr
