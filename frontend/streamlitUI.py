@@ -1,14 +1,4 @@
 import streamlit as st
-import cv2
-import time
-import re
-import os
-from difflib import SequenceMatcher
-import pandas as pd
-from datetime import datetime
-from ultralytics import YOLO
-import easyocr
-from pathlib import Path
 
 ALLOWED_USERS = {
     "laliparth@gmail.com",
@@ -36,8 +26,19 @@ if st.user.email not in ALLOWED_USERS:
     st.error("You are not authorized to access this system.")
     st.button("Logout", on_click=st.logout)
     st.stop()
+    
 
 
+import cv2
+import time
+import re
+import os
+from difflib import SequenceMatcher
+import pandas as pd
+from datetime import datetime
+from ultralytics import YOLO
+import easyocr
+from pathlib import Path
 
 # ============================================================
 # IBVAP - INTELLIGENT BORDER VIDEO ANALYTICS PLATFORM
