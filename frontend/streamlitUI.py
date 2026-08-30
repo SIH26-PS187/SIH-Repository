@@ -6,7 +6,7 @@ ALLOWED_USERS = {
     "shreyagoyal1733@gmail.com",
     "dharneet08@gmail.com",
     "shounak6425@gmail.com"
-    "guptatanush763@gmail.com"
+    "guptatanushapril@gmail.com"
 }
 
 
