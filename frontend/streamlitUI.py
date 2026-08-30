@@ -39,7 +39,6 @@ import pandas as pd
 from datetime import datetime
 from ultralytics import YOLO
 import easyocr
-from pathlib import Path
 
 # ============================================================
 # IBVAP - INTELLIGENT BORDER VIDEO ANALYTICS PLATFORM
@@ -56,12 +55,10 @@ st.set_page_config(
 # CONFIGURATION
 # ============================================================
 
-BASE_DIR = Path(__file__).resolve().parent
+VIDEO_FOLDER = "frontend/ demo_videos"
 
-VIDEO_FOLDER = BASE_DIR / "demo_videos"
-
-VEHICLE_MODEL = BASE_DIR / "yolo26n.pt"
-PLATE_MODEL = BASE_DIR / "models" / "plate_detector.pt"
+VEHICLE_MODEL = "frontend/ yolo26n.pt"
+PLATE_MODEL = "frontend/ models/ plate_detector.pt"
 
 VEHICLE_EVERY = 2
 PLATE_EVERY = 5
