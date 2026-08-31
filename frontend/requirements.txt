@@ -2,6 +2,6 @@ streamlit==1.56.0
 Authlib==1.6.11
 httpx
 ultralytics
-opencv-python
+opencv-python-headless==4.10.0.84
 pandas
 easyocr
