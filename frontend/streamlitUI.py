@@ -54,10 +54,12 @@ st.set_page_config(
 # CONFIGURATION
 # ============================================================
 
-VIDEO_FOLDER = "/mount/src/sih-repository/frontend/demo_videos"
 
-VEHICLE_MODEL = "yolo26n.pt"
-PLATE_MODEL = "models/plate_detector.pt"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+VIDEO_FOLDER = os.path.join(BASE_DIR, "demo_videos")
+PLATE_MODEL = os.path.join(BASE_DIR, "models", "plate_detector.pt")
+VEHICLE_MODEL = os.path.join(BASE_DIR, "models", "yolo26n.pt")
 
 VEHICLE_EVERY = 2
 PLATE_EVERY = 5
